@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2  {
+    text-align: center;
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.signupbtn:hover {
+    background-color: #45a049;
+}
